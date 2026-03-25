@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+ <meta name="viewport" content="width=device-width">
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <link rel="stylesheet" href="./REGISTER PAGE 01.css">
+    </head>
+    <body>
+        <h1>REGISTER PAGE</h1>
+ <form action="/register" method="POST">
+    <fieldset class="class">
+    <fieldset class="register">
+        <legend>Participant Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="Gender">Gender:</label><br>
+        <label><input type="checkbox"name="Gender" value="male" >Male</label>
+       <label><input type="checkbox"name="Gender" value="female" >Female</label><br>
+       <label for="Date Of Birth">Date of Birth:</label>
+       <input type="date" id="date" name="date" required>
+    </fieldset>
+    <fieldset>
+        <legend>Academic Details</legend>
+        <label for="name">College/University Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">Department/Course:</label>
+        <input type="text" id="text" name="name" required><br><br>
+        <label for="Year of study">Year of Study:</label><br>
+        <label><input type="checkbox"name="year of study" value="1st Year">1st Year</label>
+        <label><input type="checkbox"name="year of study" value="2nd Year">2nd Year</label>
+       <label><input type="checkbox"name="year of study" value="3rd Year">3rd Year</label>
+      <label><input type="checkbox"name="year of study" value="4thYear">4th Year</label><br><br>
+     <label for="name">Roll Number/Id Number:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label for="Mobile Number">Mobile Number:</label>
+        <input type="number" id="number" name="number"><br><br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+    </fieldset>
+    <fieldset>
+        <legend>Participation Type</legend>
+        <label for="are you participating as">Are You Participating as:</label><br>
+        <label><input type="checkbox" name="individual" value="individual">Individual</label>
+        <label><input type="checkbox" name="Team" value="Team">Team</label>
+     <p>(IF TEAM,FILL BELOW)</p>
+        <label for="name"> Team Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">Team Leader Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="number of team members"> Number of Team Members:</label><br>
+        <label><input type="checkbox" name="number of team members" value="2">2</label>
+        <label><input type="checkbox" name="number of team members" value="3">3</label>
+        <label><input type="checkbox" name="number of team members" value="4">4</label>
+        <label><input type="checkbox" name="number of team members" value="5">5</label>
+    </fieldset>
+    <fieldset>
+        <legend>Hackathon Prefernces</legend>
+        <label for="domain/Theme">Domain/Theme:</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Artificial Intelligence/ML">Artificial Intelligence/ML</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Web Development">Web Development</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Mobile App Development">Mobile App Development</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Cyber Security">Cyber Security</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="IOT">IOT</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Data Science">Data Science</label><br>
+        <label><input type="checkbox" name="Domain/Theme" value="Open Innovation">Open Innovation</label><br><br>
+       <label for="Experience level">Experience Level:</label><br>
+        <label><input type="checkbox" name="Experience Level" value="Beginner">Beginner</label><br>
+        <label><input type="checkbox" name="Experience Level" value="Intermediate">Intermediate</label><br>
+        <label><input type="checkbox" name="Experience Level" value="Advanced">Advanced</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Tools</legend>
+        <label for="Technologies known">Technologies Known:</label><br>
+        <label><input type="checkbox" name="Technologies known" value="Python">Python</label><br>
+        <label><input type="checkbox" name="Technologies known" value="Java">Java</label><br>
+        <label><input type="checkbox" name="Technologies known" value="C/C++">C/C++</label><br>
+        <label><input type="checkbox" name="Technologies known" value="JavaScript">JavaScript</label><br>
+        <label><input type="checkbox" name="Technologies known" value="React">React</label><br>
+        <label><input type="checkbox" name="Technologies known" value="Flutter">Flutter</label><br>
+        <label><input type="checkbox" name="Technologies known" value="SQL">SQL</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Event Details</legend>
+        <label for="Mode of Hackathon">Mode of Hackathon:</label><br>
+        <label><input type="checkbox" name="Mode of Hackathon" value="online">Online</label><br>
+        <label><input type="checkbox" name="Mode of Hackathon" value="offline">Offline</label><br>
+        <label for="Food Preference">Food Preference:</label><br>
+        <label><input type="checkbox" name="Food Preference" value="veg">Veg</label><br>
+        <label><input type="checkbox" name="Food Prefrence" value="Non-Veg">Non-Veg</label><br>
+        <label for="Accomodation Required">Accomodation Required:</label><br>
+        <label><input type="checkbox" name="Accomodation Required" value="yes">Yes</label><br>
+        <label><input type="checkbox" name="Accomodation Required" value="No">No</label><br>
+    </fieldset>
+    <fieldset>
+        <label for="Declaration">Declaration:</label><br>
+        <label><input type="checkbox" name="declaration" value="declaration">I hereby declare that the information provided is true and correct.</label><br>
+        <label><input type="checkbox" name="declaration" value="declaration">I agree to follow all the rules and regulations of the hackathon.</label><br><br>
+     <label for="name"> Place:</label>
+        <input type="text" id="name" name="name" required><br><br>
+         <label for="name">Date:</label>
+        <input type="text" id="name" name="name" required><br><br>
+         <label for="name">Participant Signature:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    </fieldset>
+    <button type="register">REGISTER</button>
+    </fieldset>
+ </form>
+    </body>
+</html>
